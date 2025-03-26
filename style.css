@@ -1,0 +1,101 @@
+body {
+    background-color: #f4e4c1;
+    font-family: 'Cinzel', serif;
+    color: #4b2e1c;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #aaa;
+}
+
+
+.quote {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #6a5036;
+    font-size: 1.5em;
+}
+
+.container{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 100px;
+    width: 250px;
+    height: 300px;
+    border: 5px solid #4b2e1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px #9a7653;
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.btn:hover{
+    transform: scale(1.05)
+}
+
+.box {          
+    position: absolute;
+    bottom: 5px;            
+    left: 50%;
+    transform: translateX(-50%);  
+    width: 220px;
+    padding: 10px;
+    color: #382308;
+    font-size: 1.02rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+#polyjuice{
+    background: #b8a898;
+
+}
+
+#felix{
+    background: #51ce77;
+}
+
+#amortentia{
+    background: #e499be;
+    
+}
+#veritaserum{
+    background: #F5f5f5;
+}
+
+.popup {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #634330;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #9a7653;
+    font-size: 1.2rem;
+    z-index: 1000;
+    text-align: center;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
